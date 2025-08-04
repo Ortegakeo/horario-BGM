@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-width: 150px;
+}
+
+th {
+  background-color: #0074D9;
+  color: white;
+}
+
+.matematica {
+  background-color: #ffcc99;
+}
+
+.bioquimica {
+  background-color: #cc99ff;
+}
+
+.cuerpo {
+  background-color: #ffff99;
+}
+
+.metrologia {
+  background-color: #99ffcc;
+}
+
+.estructura {
+  background-color: #99ccff;
+}
+
+.ingles {
+  background-color: #ffd1dc;
+}
+
+.descanso {
+  background-color: #eee;
+  font-style: italic;
+  color: #777;
+}
+
+.libre {
+  background-color: #fafafa;
+  font-style: italic;
+  color: #aaa;
+}
