@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Horario Interactivo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Horario Semanal</h1>
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Hora</th>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miércoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>08:30 - 09:30</td>
+          <td class="matematica">BGM-122 Matemática y Computación II<br>(F-104)</td>
+          <td class="bioquimica">BGM-124 Bioquímica I / Lab.<br>LICB S1 (J-300 / Lab.)</td>
+          <td class="matematica">BGM-122 Matemática y Computación II<br>(certamen, E-201)</td>
+          <td class="bioquimica cuerpo">BGM-124 Bioquímica I Lab (LICB S2)<br>+ BGM-123 Fund. Función Cuerpo Humano II (COM.2)</td>
+          <td class="metrologia">BGM-125 Metrología Variables Biomédicas (D-212)</td>
+        </tr>
+        <tr>
+          <td>09:35 - 10:35</td>
+          <td class="matematica">BGM-122 Matemática y Computación II<br>(F-104)</td>
+          <td class="bioquimica">BGM-124 Bioquímica I / Lab.<br>LICB S1 (J-300 / Lab.)</td>
+          <td class="matematica">BGM-122 Matemática y Computación II<br>(certamen, E-201)</td>
+          <td class="bioquimica cuerpo">BGM-124 Bioquímica I Lab (LICB S2)<br>+ BGM-123 Fund. Función Cuerpo Humano II (COM.2)</td>
+          <td class="metrologia">BGM-125 Metrología Variables Biomédicas (D-212)</td>
+        </tr>
+        <tr>
+          <td>10:50 - 11:50</td>
+          <td class="libre">(Libre)</td>
+          <td class="cuerpo">BGM-123 Fund. Función Cuerpo Humano II (J-300)</td>
+          <td class="libre">(Libre para certamen)</td>
+          <td class="bioquimica cuerpo">BGM-124 Bioquímica I Lab (LICB S3)<br>+ BGM-123 Fund. Función Cuerpo Humano II (COM.2)</td>
+          <td class="cuerpo">BGM-123 Fund. Función Cuerpo Humano II (D-212)</td>
+        </tr>
+        <tr>
+          <td>11:55 - 12:55</td>
+          <td class="libre">(Libre)</td>
+          <td class="cuerpo">BGM-123 Fund. Función Cuerpo Humano II (J-300)</td>
+          <td class="libre">(Libre)</td>
+          <td class="bioquimica cuerpo">BGM-124 Bioquímica I Lab (LICB S3)<br>+ BGM-123 Fund. Función Cuerpo Humano II (COM.2)</td>
+          <td class="cuerpo">BGM-123 Fund. Función Cuerpo Humano II (D-212)</td>
+        </tr>
+        <tr>
+          <td>13:10 - 14:10</td>
+          <td class="descanso">(Almuerzo)</td>
+          <td class="descanso">(Almuerzo)</td>
+          <td class="descanso">(Almuerzo)</td>
+          <td class="descanso">(Almuerzo)</td>
+          <td class="descanso">(Almuerzo)</td>
+        </tr>
+        <tr>
+          <td>14:30 - 15:30</td>
+          <td class="libre">(Libre)</td>
+          <td class="estructura">BGM-121 Fund. Estructura Cuerpo Humano II (LICB S1)</td>
+          <td class="estructura">BGM-121 Lab Fund. Estructura Cuerpo Humano II (A-204)</td>
+          <td class="ingles">IFG-10041 Inglés I (B-101 / B-112)</td>
+          <td class="matematica">BGM-122 Matemática y Computación II Lab (Com. 2)</td>
+        </tr>
+        <tr>
+          <td>15:35 - 16:35</td>
+          <td class="libre">(Libre)</td>
+          <td class="estructura">BGM-121 Fund. Estructura Cuerpo Humano II Lab (LICB S2)</td>
+          <td class="estructura">BGM-121 Lab Fund. Estructura Cuerpo Humano II (A-204)</td>
+          <td class="ingles">IFG-10041 Inglés I (Secc. 5 / 6)</td>
+          <td class="matematica">BGM-122 Matemática y Computación II Lab (Com. 2)</td>
+        </tr>
+        <tr>
+          <td>16:50 - 17:50</td>
+          <td class="libre">(Libre)</td>
+          <td class="metrologia">BGM-125 Metrología Variables Biomédicas (I-101)</td>
+          <td class="estructura">BGM-121 Lab Fund. Estructura Cuerpo Humano II (A-204)</td>
+          <td class="ingles">IFG-10041 Inglés I</td>
+          <td class="matematica">BGM-122 Matemática y Computación II Lab (Com. 2)</td>
+        </tr>
+        <tr>
+          <td>17:55 - 18:55</td>
+          <td class="libre">(Libre)</td>
+          <td class="metrologia">BGM-125 Metrología Variables Biomédicas (I-101)</td>
+          <td class="libre">(Libre)</td>
+          <td class="libre">(Libre)</td>
+          <td class="matematica">BGM-122 Matemática y Computación II Lab (Com. 2)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
